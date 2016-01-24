@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="7" failures="0" disabled="0" errors="0" timestamp="2016-01-24T12:54:45" time="0.3" name="AllTests">
-  <testsuite name="ValidationTest/0" tests="1" failures="0" disabled="0" errors="0" time="0.05">
-    <testcase name="All" type_param="double" status="run" time="0.05" classname="ValidationTest/0" />
+<testsuites tests="7" failures="0" disabled="0" errors="0" timestamp="2016-01-24T13:54:30" time="0.172" name="AllTests">
+  <testsuite name="ValidationTest/0" tests="1" failures="0" disabled="0" errors="0" time="0.03">
+    <testcase name="All" type_param="double" status="run" time="0.03" classname="ValidationTest/0" />
   </testsuite>
-  <testsuite name="ValidationTest/1" tests="1" failures="0" disabled="0" errors="0" time="0.042">
-    <testcase name="All" type_param="float" status="run" time="0.042" classname="ValidationTest/1" />
+  <testsuite name="ValidationTest/1" tests="1" failures="0" disabled="0" errors="0" time="0.026">
+    <testcase name="All" type_param="float" status="run" time="0.026" classname="ValidationTest/1" />
   </testsuite>
-  <testsuite name="ValidationTest/2" tests="1" failures="0" disabled="0" errors="0" time="0.042">
-    <testcase name="All" type_param="int" status="run" time="0.042" classname="ValidationTest/2" />
+  <testsuite name="ValidationTest/2" tests="1" failures="0" disabled="0" errors="0" time="0.024">
+    <testcase name="All" type_param="int" status="run" time="0.024" classname="ValidationTest/2" />
   </testsuite>
-  <testsuite name="ValidationTest/3" tests="1" failures="0" disabled="0" errors="0" time="0.042">
-    <testcase name="All" type_param="unsigned int" status="run" time="0.042" classname="ValidationTest/3" />
+  <testsuite name="ValidationTest/3" tests="1" failures="0" disabled="0" errors="0" time="0.024">
+    <testcase name="All" type_param="unsigned int" status="run" time="0.024" classname="ValidationTest/3" />
   </testsuite>
-  <testsuite name="ValidationTest/4" tests="1" failures="0" disabled="0" errors="0" time="0.047">
-    <testcase name="All" type_param="unsigned long" status="run" time="0.047" classname="ValidationTest/4" />
+  <testsuite name="ValidationTest/4" tests="1" failures="0" disabled="0" errors="0" time="0.025">
+    <testcase name="All" type_param="unsigned long" status="run" time="0.025" classname="ValidationTest/4" />
   </testsuite>
-  <testsuite name="ValidationTest/5" tests="1" failures="0" disabled="0" errors="0" time="0.045">
-    <testcase name="All" type_param="long long" status="run" time="0.045" classname="ValidationTest/5" />
+  <testsuite name="ValidationTest/5" tests="1" failures="0" disabled="0" errors="0" time="0.025">
+    <testcase name="All" type_param="long long" status="run" time="0.025" classname="ValidationTest/5" />
   </testsuite>
-  <testsuite name="ValidationTest/6" tests="1" failures="0" disabled="0" errors="0" time="0.032">
-    <testcase name="All" type_param="char" status="run" time="0.032" classname="ValidationTest/6" />
+  <testsuite name="ValidationTest/6" tests="1" failures="0" disabled="0" errors="0" time="0.018">
+    <testcase name="All" type_param="char" status="run" time="0.017" classname="ValidationTest/6" />
   </testsuite>
 </testsuites>
