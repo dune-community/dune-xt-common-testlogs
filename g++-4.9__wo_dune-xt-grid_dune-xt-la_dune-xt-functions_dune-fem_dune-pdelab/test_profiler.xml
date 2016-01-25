@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="5" failures="0" disabled="0" errors="0" timestamp="2016-01-25T13:54:58" time="1.121" name="AllTests">
-  <testsuite name="ProfilerTest" tests="5" failures="0" disabled="0" errors="0" time="1.121">
+<testsuites tests="5" failures="0" disabled="0" errors="0" timestamp="2016-01-25T14:12:19" time="1.121" name="AllTests">
+  <testsuite name="ProfilerTest" tests="5" failures="0" disabled="0" errors="0" time="1.12">
     <testcase name="Timing" status="run" time="0.45" classname="ProfilerTest" />
     <testcase name="ScopedTiming" status="run" time="0.45" classname="ProfilerTest" />
     <testcase name="OutputConstness" status="run" time="0" classname="ProfilerTest" />
-    <testcase name="ExpectedFailures" status="run" time="0.001" classname="ProfilerTest" />
+    <testcase name="ExpectedFailures" status="run" time="0" classname="ProfilerTest" />
     <testcase name="NestedTiming" status="run" time="0.22" classname="ProfilerTest" />
   </testsuite>
 </testsuites>
