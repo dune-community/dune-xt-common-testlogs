@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="60" failures="0" disabled="0" errors="0" timestamp="2016-01-24T13:56:01" time="0.003" name="AllTests">
-  <testsuite name="FloatCmpScalar/0" tests="6" failures="0" disabled="0" errors="0" time="0.001">
+<testsuites tests="60" failures="0" disabled="0" errors="0" timestamp="2016-01-25T08:55:55" time="0.002" name="AllTests">
+  <testsuite name="FloatCmpScalar/0" tests="6" failures="0" disabled="0" errors="0" time="0">
     <testcase name="eq" type_param="double" status="run" time="0" classname="FloatCmpScalar/0" />
     <testcase name="ne" type_param="double" status="run" time="0" classname="FloatCmpScalar/0" />
     <testcase name="gt" type_param="double" status="run" time="0" classname="FloatCmpScalar/0" />
@@ -56,8 +56,8 @@
     <testcase name="ge" type_param="std::vector&lt;std::complex&lt;double&gt;, std::allocator&lt;std::complex&lt;double&gt; &gt; &gt;" status="run" time="0" classname="FloatCmpVector/5" />
     <testcase name="le" type_param="std::vector&lt;std::complex&lt;double&gt;, std::allocator&lt;std::complex&lt;double&gt; &gt; &gt;" status="run" time="0" classname="FloatCmpVector/5" />
   </testsuite>
-  <testsuite name="FloatCmpVector/6" tests="6" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="eq" type_param="Dune::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/6" />
+  <testsuite name="FloatCmpVector/6" tests="6" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="eq" type_param="Dune::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0.001" classname="FloatCmpVector/6" />
     <testcase name="ne" type_param="Dune::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/6" />
     <testcase name="gt" type_param="Dune::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/6" />
     <testcase name="lt" type_param="Dune::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/6" />
@@ -72,7 +72,7 @@
     <testcase name="ge" type_param="Dune::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/7" />
     <testcase name="le" type_param="Dune::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/7" />
   </testsuite>
-  <testsuite name="FloatCmpVector/8" tests="6" failures="0" disabled="0" errors="0" time="0.001">
+  <testsuite name="FloatCmpVector/8" tests="6" failures="0" disabled="0" errors="0" time="0">
     <testcase name="eq" type_param="Dune::DynamicVector&lt;std::complex&lt;double&gt;, std::allocator&lt;std::complex&lt;double&gt; &gt; &gt;" status="run" time="0" classname="FloatCmpVector/8" />
     <testcase name="ne" type_param="Dune::DynamicVector&lt;std::complex&lt;double&gt;, std::allocator&lt;std::complex&lt;double&gt; &gt; &gt;" status="run" time="0" classname="FloatCmpVector/8" />
     <testcase name="gt" type_param="Dune::DynamicVector&lt;std::complex&lt;double&gt;, std::allocator&lt;std::complex&lt;double&gt; &gt; &gt;" status="run" time="0" classname="FloatCmpVector/8" />
