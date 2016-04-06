@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="10" failures="0" disabled="0" errors="0" timestamp="2016-04-05T19:28:41" time="0.001" name="AllTests">
+<testsuites tests="10" failures="0" disabled="0" errors="0" timestamp="2016-04-06T07:59:55" time="0" name="AllTests">
   <testsuite name="ClampTest/0" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="All" type_param="double" status="run" time="0" classname="ClampTest/0" />
   </testsuite>
@@ -18,9 +18,9 @@
   <testsuite name="MinMaxAvgTest/1" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="All" type_param="int" status="run" time="0" classname="MinMaxAvgTest/1" />
   </testsuite>
-  <testsuite name="OtherMath" tests="4" failures="0" disabled="0" errors="0" time="0.001">
+  <testsuite name="OtherMath" tests="4" failures="0" disabled="0" errors="0" time="0">
     <testcase name="Range" status="run" time="0" classname="OtherMath" />
-    <testcase name="Sign" status="run" time="0.001" classname="OtherMath" />
+    <testcase name="Sign" status="run" time="0" classname="OtherMath" />
     <testcase name="AbsoluteValue" status="run" time="0" classname="OtherMath" />
     <testcase name="FloatCmp" status="run" time="0" classname="OtherMath" />
   </testsuite>
