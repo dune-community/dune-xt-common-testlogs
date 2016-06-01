@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="6" failures="4" disabled="0" errors="0" timestamp="2016-06-01T08:20:17" time="0.001" name="AllTests">
+  <testsuite name="FloatCmpTest" tests="6" failures="4" disabled="0" errors="0" time="0.001">
+    <testcase name="eq" status="run" time="0" classname="FloatCmpTest">
+      <failure message="/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.cc:60&#x0A;Value of: FLOATCMP_EQ(zero, eps_plus)&#x0A;  Actual: true&#x0A;Expected: false" type=""><![CDATA[/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.cc:60
+Value of: FLOATCMP_EQ(zero, eps_plus)
+  Actual: true
+Expected: false]]></failure>
+      <failure message="/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.cc:66&#x0A;Value of: FLOATCMP_EQ(zero, eps_minus)&#x0A;  Actual: true&#x0A;Expected: false" type=""><![CDATA[/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.cc:66
+Value of: FLOATCMP_EQ(zero, eps_minus)
+  Actual: true
+Expected: false]]></failure>
+      <failure message="/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.cc:73&#x0A;Value of: FLOATCMP_EQ(one, one + eps_minus)&#x0A;  Actual: true&#x0A;Expected: false" type=""><![CDATA[/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.cc:73
+Value of: FLOATCMP_EQ(one, one + eps_minus)
+  Actual: true
+Expected: false]]></failure>
+    </testcase>
+    <testcase name="ne" status="run" time="0" classname="FloatCmpTest">
+      <failure message="/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:62&#x0A;ne(expected, actual, rtol, atol) evaluates to false, where&#x0A;expected evaluates to [0 0 0 0]&#x0A;actual evaluates to [0 0 0 0]&#x0A;rtol evaluates to 0&#x0A;atol evaluates to 0" type=""><![CDATA[/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:62
+ne(expected, actual, rtol, atol) evaluates to false, where
+expected evaluates to [0 0 0 0]
+actual evaluates to [0 0 0 0]
+rtol evaluates to 0
+atol evaluates to 0]]></failure>
+      <failure message="/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:62&#x0A;ne(expected, actual, rtol, atol) evaluates to false, where&#x0A;expected evaluates to [0 0 0 0]&#x0A;actual evaluates to [0 0 0 0]&#x0A;rtol evaluates to 0&#x0A;atol evaluates to 0" type=""><![CDATA[/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:62
+ne(expected, actual, rtol, atol) evaluates to false, where
+expected evaluates to [0 0 0 0]
+actual evaluates to [0 0 0 0]
+rtol evaluates to 0
+atol evaluates to 0]]></failure>
+      <failure message="/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:62&#x0A;ne(expected, actual, rtol, atol) evaluates to false, where&#x0A;expected evaluates to [1 1 1 1]&#x0A;actual evaluates to [1 1 1 1]&#x0A;rtol evaluates to 0&#x0A;atol evaluates to 0" type=""><![CDATA[/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:62
+ne(expected, actual, rtol, atol) evaluates to false, where
+expected evaluates to [1 1 1 1]
+actual evaluates to [1 1 1 1]
+rtol evaluates to 0
+atol evaluates to 0]]></failure>
+    </testcase>
+    <testcase name="gt" status="run" time="0" classname="FloatCmpTest">
+      <failure message="/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:63&#x0A;gt(expected, actual, rtol, atol) evaluates to false, where&#x0A;expected evaluates to [0 0 0 0]&#x0A;actual evaluates to [0 0 0 0]&#x0A;rtol evaluates to 0&#x0A;atol evaluates to 0" type=""><![CDATA[/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:63
+gt(expected, actual, rtol, atol) evaluates to false, where
+expected evaluates to [0 0 0 0]
+actual evaluates to [0 0 0 0]
+rtol evaluates to 0
+atol evaluates to 0]]></failure>
+      <failure message="/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:63&#x0A;gt(expected, actual, rtol, atol) evaluates to false, where&#x0A;expected evaluates to [0 0 0 0]&#x0A;actual evaluates to [0 0 0 0]&#x0A;rtol evaluates to 0&#x0A;atol evaluates to 0" type=""><![CDATA[/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:63
+gt(expected, actual, rtol, atol) evaluates to false, where
+expected evaluates to [0 0 0 0]
+actual evaluates to [0 0 0 0]
+rtol evaluates to 0
+atol evaluates to 0]]></failure>
+      <failure message="/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:63&#x0A;gt(expected, actual, rtol, atol) evaluates to false, where&#x0A;expected evaluates to [1 1 1 1]&#x0A;actual evaluates to [1 1 1 1]&#x0A;rtol evaluates to 0&#x0A;atol evaluates to 0" type=""><![CDATA[/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:63
+gt(expected, actual, rtol, atol) evaluates to false, where
+expected evaluates to [1 1 1 1]
+actual evaluates to [1 1 1 1]
+rtol evaluates to 0
+atol evaluates to 0]]></failure>
+    </testcase>
+    <testcase name="lt" status="run" time="0.001" classname="FloatCmpTest">
+      <failure message="/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:64&#x0A;lt(expected, actual, rtol, atol) evaluates to false, where&#x0A;expected evaluates to [0 0 0 0]&#x0A;actual evaluates to [0 0 0 0]&#x0A;rtol evaluates to 0&#x0A;atol evaluates to 0" type=""><![CDATA[/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:64
+lt(expected, actual, rtol, atol) evaluates to false, where
+expected evaluates to [0 0 0 0]
+actual evaluates to [0 0 0 0]
+rtol evaluates to 0
+atol evaluates to 0]]></failure>
+      <failure message="/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:64&#x0A;lt(expected, actual, rtol, atol) evaluates to false, where&#x0A;expected evaluates to [0 0 0 0]&#x0A;actual evaluates to [0 0 0 0]&#x0A;rtol evaluates to 0&#x0A;atol evaluates to 0" type=""><![CDATA[/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:64
+lt(expected, actual, rtol, atol) evaluates to false, where
+expected evaluates to [0 0 0 0]
+actual evaluates to [0 0 0 0]
+rtol evaluates to 0
+atol evaluates to 0]]></failure>
+      <failure message="/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:64&#x0A;lt(expected, actual, rtol, atol) evaluates to false, where&#x0A;expected evaluates to [1 1 1 1]&#x0A;actual evaluates to [1 1 1 1]&#x0A;rtol evaluates to 0&#x0A;atol evaluates to 0" type=""><![CDATA[/home/travis/src/dune-xt-common/dune/xt/common/test/float_cmp.hh:64
+lt(expected, actual, rtol, atol) evaluates to false, where
+expected evaluates to [1 1 1 1]
+actual evaluates to [1 1 1 1]
+rtol evaluates to 0
+atol evaluates to 0]]></failure>
+    </testcase>
+    <testcase name="ge" status="run" time="0" classname="FloatCmpTest" />
+    <testcase name="le" status="run" time="0" classname="FloatCmpTest" />
+  </testsuite>
+</testsuites>
