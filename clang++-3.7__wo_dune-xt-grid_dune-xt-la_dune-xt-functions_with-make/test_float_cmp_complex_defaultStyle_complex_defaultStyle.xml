@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="6" failures="0" disabled="0" errors="0" timestamp="2016-07-22T12:45:00" time="0" name="AllTests">
-  <testsuite name="FloatCmpTest" tests="6" failures="0" disabled="0" errors="0" time="0">
+<testsuites tests="6" failures="0" disabled="0" errors="0" timestamp="2016-07-27T15:42:18" time="0.001" name="AllTests">
+  <testsuite name="FloatCmpTest" tests="6" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="eq" status="run" time="0" classname="FloatCmpTest" />
-    <testcase name="ne" status="run" time="0" classname="FloatCmpTest" />
+    <testcase name="ne" status="run" time="0.001" classname="FloatCmpTest" />
     <testcase name="gt" status="run" time="0" classname="FloatCmpTest" />
     <testcase name="lt" status="run" time="0" classname="FloatCmpTest" />
     <testcase name="ge" status="run" time="0" classname="FloatCmpTest" />
