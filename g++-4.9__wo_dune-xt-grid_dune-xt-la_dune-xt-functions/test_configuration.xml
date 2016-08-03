@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="34" failures="0" disabled="0" errors="0" timestamp="2016-08-02T14:39:50" time="0.006" name="AllTests">
-  <testsuite name="ConfigTest/0" tests="3" failures="0" disabled="0" errors="0" time="0">
+<testsuites tests="34" failures="0" disabled="0" errors="0" timestamp="2016-08-03T07:57:28" time="0.007" name="AllTests">
+  <testsuite name="ConfigTest/0" tests="3" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="Get" type_param="double" status="run" time="0" classname="ConfigTest/0" />
-    <testcase name="Set" type_param="double" status="run" time="0" classname="ConfigTest/0" />
+    <testcase name="Set" type_param="double" status="run" time="0.001" classname="ConfigTest/0" />
     <testcase name="Other" type_param="double" status="run" time="0" classname="ConfigTest/0" />
   </testsuite>
-  <testsuite name="ConfigTest/1" tests="3" failures="0" disabled="0" errors="0" time="0.001">
-    <testcase name="Get" type_param="float" status="run" time="0.001" classname="ConfigTest/1" />
+  <testsuite name="ConfigTest/1" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Get" type_param="float" status="run" time="0" classname="ConfigTest/1" />
     <testcase name="Set" type_param="float" status="run" time="0" classname="ConfigTest/1" />
     <testcase name="Other" type_param="float" status="run" time="0" classname="ConfigTest/1" />
   </testsuite>
@@ -63,7 +63,7 @@
   <testsuite name="ConfigurationTest/5" tests="1" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="behaves_correctly" type_param="CreateByParameterTree" status="run" time="0.001" classname="ConfigurationTest/5" />
   </testsuite>
-  <testsuite name="ConfigurationTest/6" tests="1" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="behaves_correctly" type_param="CreateByOperatorAndAssign" status="run" time="0" classname="ConfigurationTest/6" />
+  <testsuite name="ConfigurationTest/6" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="behaves_correctly" type_param="CreateByOperatorAndAssign" status="run" time="0.001" classname="ConfigurationTest/6" />
   </testsuite>
 </testsuites>
