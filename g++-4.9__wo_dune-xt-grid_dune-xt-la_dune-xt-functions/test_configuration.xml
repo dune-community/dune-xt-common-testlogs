@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="34" failures="0" disabled="0" errors="0" timestamp="2016-08-29T13:40:07" time="0.02" name="AllTests">
-  <testsuite name="ConfigTest/0" tests="3" failures="0" disabled="0" errors="0" time="0.005">
-    <testcase name="Get" type_param="double" status="run" time="0.005" classname="ConfigTest/0" />
+<testsuites tests="34" failures="0" disabled="0" errors="0" timestamp="2016-08-30T09:23:50" time="0.021" name="AllTests">
+  <testsuite name="ConfigTest/0" tests="3" failures="0" disabled="0" errors="0" time="0.004">
+    <testcase name="Get" type_param="double" status="run" time="0.004" classname="ConfigTest/0" />
     <testcase name="Set" type_param="double" status="run" time="0" classname="ConfigTest/0" />
     <testcase name="Other" type_param="double" status="run" time="0" classname="ConfigTest/0" />
   </testsuite>
   <testsuite name="ConfigTest/1" tests="3" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="Get" type_param="float" status="run" time="0" classname="ConfigTest/1" />
     <testcase name="Set" type_param="float" status="run" time="0" classname="ConfigTest/1" />
-    <testcase name="Other" type_param="float" status="run" time="0.001" classname="ConfigTest/1" />
+    <testcase name="Other" type_param="float" status="run" time="0" classname="ConfigTest/1" />
   </testsuite>
   <testsuite name="ConfigTest/2" tests="3" failures="0" disabled="0" errors="0" time="0">
     <testcase name="Get" type_param="std::string" status="run" time="0" classname="ConfigTest/2" />
@@ -51,11 +51,11 @@
   <testsuite name="ConfigurationTest/1" tests="1" failures="0" disabled="0" errors="0" time="0.002">
     <testcase name="behaves_correctly" type_param="CreateByKeyAndValueAndAddConfiguration" status="run" time="0.002" classname="ConfigurationTest/1" />
   </testsuite>
-  <testsuite name="ConfigurationTest/2" tests="1" failures="0" disabled="0" errors="0" time="0.002">
-    <testcase name="behaves_correctly" type_param="CreateByKeyAndValueAndAddParameterTree" status="run" time="0.002" classname="ConfigurationTest/2" />
+  <testsuite name="ConfigurationTest/2" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="behaves_correctly" type_param="CreateByKeyAndValueAndAddParameterTree" status="run" time="0.001" classname="ConfigurationTest/2" />
   </testsuite>
-  <testsuite name="ConfigurationTest/3" tests="1" failures="0" disabled="0" errors="0" time="0.001">
-    <testcase name="behaves_correctly" type_param="CreateByKeyAndValueVectorsAndAddParameterTree" status="run" time="0.001" classname="ConfigurationTest/3" />
+  <testsuite name="ConfigurationTest/3" tests="1" failures="0" disabled="0" errors="0" time="0.002">
+    <testcase name="behaves_correctly" type_param="CreateByKeyAndValueVectorsAndAddParameterTree" status="run" time="0.002" classname="ConfigurationTest/3" />
   </testsuite>
   <testsuite name="ConfigurationTest/4" tests="1" failures="0" disabled="0" errors="0" time="0.002">
     <testcase name="behaves_correctly" type_param="CreateByKeysAndValues" status="run" time="0.002" classname="ConfigurationTest/4" />
