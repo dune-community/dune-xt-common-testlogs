@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="20" failures="0" disabled="0" errors="0" timestamp="2016-09-01T15:57:07" time="0.003" name="AllTests">
-  <testsuite name="MatrixStringTestDouble/0" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+<testsuites tests="20" failures="0" disabled="0" errors="0" timestamp="2016-09-13T10:09:11" time="0.003" name="AllTests">
+  <testsuite name="MatrixStringTestDouble/0" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="CheckDouble" type_param="Dune::DynamicMatrix&lt;double&gt;" status="run" time="0" classname="MatrixStringTestDouble/0" />
   </testsuite>
-  <testsuite name="MatrixStringTestDouble/1" tests="1" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="CheckDouble" type_param="Dune::XT::Common::FieldMatrix&lt;double, 2, 2&gt;" status="run" time="0" classname="MatrixStringTestDouble/1" />
+  <testsuite name="MatrixStringTestDouble/1" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="CheckDouble" type_param="Dune::XT::Common::FieldMatrix&lt;double, 2, 2&gt;" status="run" time="0.001" classname="MatrixStringTestDouble/1" />
   </testsuite>
   <testsuite name="MatrixStringTestDouble/2" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="CheckDouble" type_param="Dune::FieldMatrix&lt;double, 2, 2&gt;" status="run" time="0" classname="MatrixStringTestDouble/2" />
@@ -18,11 +18,11 @@
   <testsuite name="MatrixStringTestChar/2" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="CheckChar" type_param="Dune::FieldMatrix&lt;char, 2, 2&gt;" status="run" time="0" classname="MatrixStringTestChar/2" />
   </testsuite>
-  <testsuite name="VectorStringTestDouble/0" tests="1" failures="0" disabled="0" errors="0" time="0.001">
-    <testcase name="CheckDouble" type_param="std::vector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0.001" classname="VectorStringTestDouble/0" />
+  <testsuite name="VectorStringTestDouble/0" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="CheckDouble" type_param="std::vector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="VectorStringTestDouble/0" />
   </testsuite>
-  <testsuite name="VectorStringTestDouble/1" tests="1" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="CheckDouble" type_param="Dune::DynamicVector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="VectorStringTestDouble/1" />
+  <testsuite name="VectorStringTestDouble/1" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="CheckDouble" type_param="Dune::DynamicVector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0.001" classname="VectorStringTestDouble/1" />
   </testsuite>
   <testsuite name="VectorStringTestDouble/2" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="CheckDouble" type_param="Dune::FieldVector&lt;double, 3&gt;" status="run" time="0" classname="VectorStringTestDouble/2" />
@@ -39,12 +39,12 @@
   <testsuite name="VectorStringTestInt/2" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="CheckInt" type_param="Dune::FieldVector&lt;int, 3&gt;" status="run" time="0" classname="VectorStringTestInt/2" />
   </testsuite>
-  <testsuite name="VectorStringTestInt/3" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+  <testsuite name="VectorStringTestInt/3" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="CheckInt" type_param="Dune::XT::Common::FieldVector&lt;int, 3&gt;" status="run" time="0" classname="VectorStringTestInt/3" />
   </testsuite>
-  <testsuite name="StringTest" tests="6" failures="0" disabled="0" errors="0" time="0">
+  <testsuite name="StringTest" tests="6" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="ConvertTo" status="run" time="0" classname="StringTest" />
-    <testcase name="ConvertFrom" status="run" time="0" classname="StringTest" />
+    <testcase name="ConvertFrom" status="run" time="0.001" classname="StringTest" />
     <testcase name="Hex" status="run" time="0" classname="StringTest" />
     <testcase name="Whitespace" status="run" time="0" classname="StringTest" />
     <testcase name="Tokenizer" status="run" time="0" classname="StringTest" />
