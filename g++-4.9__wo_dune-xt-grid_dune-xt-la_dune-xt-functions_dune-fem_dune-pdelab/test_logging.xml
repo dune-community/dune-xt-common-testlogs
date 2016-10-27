@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="2" failures="0" disabled="0" errors="0" timestamp="2016-10-24T15:59:16" time="6.701" name="AllTests">
-  <testsuite name="LoggerTest" tests="2" failures="0" disabled="0" errors="0" time="6.701">
-    <testcase name="all" status="run" time="6.701" classname="LoggerTest" />
+<testsuites tests="2" failures="0" disabled="0" errors="0" timestamp="2016-10-27T11:25:44" time="6.701" name="AllTests">
+  <testsuite name="LoggerTest" tests="2" failures="0" disabled="0" errors="0" time="6.7">
+    <testcase name="all" status="run" time="6.7" classname="LoggerTest" />
     <testcase name="file" status="run" time="0" classname="LoggerTest" />
   </testsuite>
 </testsuites>
