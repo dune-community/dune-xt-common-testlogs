@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="20" failures="0" disabled="0" errors="0" timestamp="2017-03-21T16:04:45" time="0.002" name="AllTests">
-  <testsuite name="MatrixStringTestDouble/0" tests="1" failures="0" disabled="0" errors="0" time="0">
+<testsuites tests="20" failures="0" disabled="0" errors="0" timestamp="2017-03-21T16:06:17" time="0.003" name="AllTests">
+  <testsuite name="MatrixStringTestDouble/0" tests="1" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="CheckDouble" type_param="Dune::DynamicMatrix&lt;double&gt;" status="run" time="0" classname="MatrixStringTestDouble/0" />
   </testsuite>
   <testsuite name="MatrixStringTestDouble/1" tests="1" failures="0" disabled="0" errors="0" time="0">
@@ -12,11 +12,11 @@
   <testsuite name="MatrixStringTestChar/0" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="CheckChar" type_param="Dune::DynamicMatrix&lt;char&gt;" status="run" time="0" classname="MatrixStringTestChar/0" />
   </testsuite>
-  <testsuite name="MatrixStringTestChar/1" tests="1" failures="0" disabled="0" errors="0" time="0.001">
-    <testcase name="CheckChar" type_param="Dune::XT::Common::FieldMatrix&lt;char, 2, 2&gt;" status="run" time="0.001" classname="MatrixStringTestChar/1" />
+  <testsuite name="MatrixStringTestChar/1" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="CheckChar" type_param="Dune::XT::Common::FieldMatrix&lt;char, 2, 2&gt;" status="run" time="0" classname="MatrixStringTestChar/1" />
   </testsuite>
-  <testsuite name="MatrixStringTestChar/2" tests="1" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="CheckChar" type_param="Dune::FieldMatrix&lt;char, 2, 2&gt;" status="run" time="0" classname="MatrixStringTestChar/2" />
+  <testsuite name="MatrixStringTestChar/2" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="CheckChar" type_param="Dune::FieldMatrix&lt;char, 2, 2&gt;" status="run" time="0.001" classname="MatrixStringTestChar/2" />
   </testsuite>
   <testsuite name="VectorStringTestDouble/0" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="CheckDouble" type_param="std::vector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="VectorStringTestDouble/0" />
