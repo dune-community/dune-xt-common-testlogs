@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="63" failures="0" disabled="0" errors="0" timestamp="2017-08-24T12:39:00" time="0.022" name="AllTests">
+<testsuites tests="63" failures="0" disabled="0" errors="0" timestamp="2017-08-28T12:16:50" time="0.003" name="AllTests">
   <testsuite name="FloatCmpTest/0" tests="7" failures="0" disabled="0" errors="0" time="0">
     <testcase name="eq" type_param="double" status="run" time="0" classname="FloatCmpTest/0" />
     <testcase name="ne" type_param="double" status="run" time="0" classname="FloatCmpTest/0" />
@@ -9,8 +9,8 @@
     <testcase name="le" type_param="double" status="run" time="0" classname="FloatCmpTest/0" />
     <testcase name="neg" type_param="double" status="run" time="0" classname="FloatCmpTest/0" />
   </testsuite>
-  <testsuite name="FloatCmpTest/1" tests="7" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="eq" type_param="std::vector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpTest/1" />
+  <testsuite name="FloatCmpTest/1" tests="7" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="eq" type_param="std::vector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0.001" classname="FloatCmpTest/1" />
     <testcase name="ne" type_param="std::vector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpTest/1" />
     <testcase name="gt" type_param="std::vector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpTest/1" />
     <testcase name="lt" type_param="std::vector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpTest/1" />
@@ -18,10 +18,10 @@
     <testcase name="le" type_param="std::vector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpTest/1" />
     <testcase name="neg" type_param="std::vector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpTest/1" />
   </testsuite>
-  <testsuite name="FloatCmpTest/2" tests="7" failures="0" disabled="0" errors="0" time="0.001">
+  <testsuite name="FloatCmpTest/2" tests="7" failures="0" disabled="0" errors="0" time="0">
     <testcase name="eq" type_param="std::array&lt;double, 4ul&gt;" status="run" time="0" classname="FloatCmpTest/2" />
     <testcase name="ne" type_param="std::array&lt;double, 4ul&gt;" status="run" time="0" classname="FloatCmpTest/2" />
-    <testcase name="gt" type_param="std::array&lt;double, 4ul&gt;" status="run" time="0.001" classname="FloatCmpTest/2" />
+    <testcase name="gt" type_param="std::array&lt;double, 4ul&gt;" status="run" time="0" classname="FloatCmpTest/2" />
     <testcase name="lt" type_param="std::array&lt;double, 4ul&gt;" status="run" time="0" classname="FloatCmpTest/2" />
     <testcase name="ge" type_param="std::array&lt;double, 4ul&gt;" status="run" time="0" classname="FloatCmpTest/2" />
     <testcase name="le" type_param="std::array&lt;double, 4ul&gt;" status="run" time="0" classname="FloatCmpTest/2" />
@@ -45,16 +45,16 @@
     <testcase name="le" type_param="Dune::XT::Common::FieldVector&lt;double, 4&gt;" status="run" time="0" classname="FloatCmpTest/4" />
     <testcase name="neg" type_param="Dune::XT::Common::FieldVector&lt;double, 4&gt;" status="run" time="0" classname="FloatCmpTest/4" />
   </testsuite>
-  <testsuite name="FloatCmpTest/5" tests="7" failures="0" disabled="0" errors="0" time="0.001">
+  <testsuite name="FloatCmpTest/5" tests="7" failures="0" disabled="0" errors="0" time="0">
     <testcase name="eq" type_param="Dune::DynamicVector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpTest/5" />
     <testcase name="ne" type_param="Dune::DynamicVector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpTest/5" />
     <testcase name="gt" type_param="Dune::DynamicVector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpTest/5" />
     <testcase name="lt" type_param="Dune::DynamicVector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpTest/5" />
     <testcase name="ge" type_param="Dune::DynamicVector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpTest/5" />
-    <testcase name="le" type_param="Dune::DynamicVector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0.001" classname="FloatCmpTest/5" />
+    <testcase name="le" type_param="Dune::DynamicVector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpTest/5" />
     <testcase name="neg" type_param="Dune::DynamicVector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpTest/5" />
   </testsuite>
-  <testsuite name="FloatCmpTest/6" tests="7" failures="0" disabled="0" errors="0" time="0.001">
+  <testsuite name="FloatCmpTest/6" tests="7" failures="0" disabled="0" errors="0" time="0">
     <testcase name="eq" type_param="Dune::FieldMatrix&lt;double, 4, 4&gt;" status="run" time="0" classname="FloatCmpTest/6" />
     <testcase name="ne" type_param="Dune::FieldMatrix&lt;double, 4, 4&gt;" status="run" time="0" classname="FloatCmpTest/6" />
     <testcase name="gt" type_param="Dune::FieldMatrix&lt;double, 4, 4&gt;" status="run" time="0" classname="FloatCmpTest/6" />
@@ -63,8 +63,8 @@
     <testcase name="le" type_param="Dune::FieldMatrix&lt;double, 4, 4&gt;" status="run" time="0" classname="FloatCmpTest/6" />
     <testcase name="neg" type_param="Dune::FieldMatrix&lt;double, 4, 4&gt;" status="run" time="0" classname="FloatCmpTest/6" />
   </testsuite>
-  <testsuite name="FloatCmpTest/7" tests="7" failures="0" disabled="0" errors="0" time="0.01">
-    <testcase name="eq" type_param="Dune::XT::Common::FieldMatrix&lt;double, 4, 4&gt;" status="run" time="0.004" classname="FloatCmpTest/7" />
+  <testsuite name="FloatCmpTest/7" tests="7" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="eq" type_param="Dune::XT::Common::FieldMatrix&lt;double, 4, 4&gt;" status="run" time="0" classname="FloatCmpTest/7" />
     <testcase name="ne" type_param="Dune::XT::Common::FieldMatrix&lt;double, 4, 4&gt;" status="run" time="0" classname="FloatCmpTest/7" />
     <testcase name="gt" type_param="Dune::XT::Common::FieldMatrix&lt;double, 4, 4&gt;" status="run" time="0.001" classname="FloatCmpTest/7" />
     <testcase name="lt" type_param="Dune::XT::Common::FieldMatrix&lt;double, 4, 4&gt;" status="run" time="0" classname="FloatCmpTest/7" />
@@ -72,8 +72,8 @@
     <testcase name="le" type_param="Dune::XT::Common::FieldMatrix&lt;double, 4, 4&gt;" status="run" time="0" classname="FloatCmpTest/7" />
     <testcase name="neg" type_param="Dune::XT::Common::FieldMatrix&lt;double, 4, 4&gt;" status="run" time="0" classname="FloatCmpTest/7" />
   </testsuite>
-  <testsuite name="FloatCmpTest/8" tests="7" failures="0" disabled="0" errors="0" time="0.005">
-    <testcase name="eq" type_param="Dune::DynamicMatrix&lt;double&gt;" status="run" time="0.001" classname="FloatCmpTest/8" />
+  <testsuite name="FloatCmpTest/8" tests="7" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="eq" type_param="Dune::DynamicMatrix&lt;double&gt;" status="run" time="0" classname="FloatCmpTest/8" />
     <testcase name="ne" type_param="Dune::DynamicMatrix&lt;double&gt;" status="run" time="0" classname="FloatCmpTest/8" />
     <testcase name="gt" type_param="Dune::DynamicMatrix&lt;double&gt;" status="run" time="0" classname="FloatCmpTest/8" />
     <testcase name="lt" type_param="Dune::DynamicMatrix&lt;double&gt;" status="run" time="0" classname="FloatCmpTest/8" />
