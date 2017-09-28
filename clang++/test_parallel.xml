@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="5" failures="0" disabled="0" errors="0" timestamp="2017-09-01T13:28:28" time="0.017" name="AllTests">
-  <testsuite name="ThreadValueTest/0" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+<testsuites tests="5" failures="0" disabled="0" errors="0" timestamp="2017-09-28T15:36:43" time="0" name="AllTests">
+  <testsuite name="ThreadValueTest/0" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="All" type_param="Dune::XT::Common::FallbackPerThreadValue&lt;int&gt;" status="run" time="0" classname="ThreadValueTest/0" />
   </testsuite>
-  <testsuite name="ThreadValueTest/1" tests="1" failures="0" disabled="0" errors="0" time="0.002">
+  <testsuite name="ThreadValueTest/1" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="All" type_param="Dune::XT::Common::FallbackPerThreadValue&lt;int&gt;" status="run" time="0" classname="ThreadValueTest/1" />
   </testsuite>
-  <testsuite name="ThreadValueTest/2" tests="1" failures="0" disabled="0" errors="0" time="0.003">
+  <testsuite name="ThreadValueTest/2" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="All" type_param="Dune::XT::Common::FallbackPerThreadValue&lt;int const&gt;" status="run" time="0" classname="ThreadValueTest/2" />
   </testsuite>
-  <testsuite name="ThreadValueTest/3" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+  <testsuite name="ThreadValueTest/3" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="All" type_param="Dune::XT::Common::FallbackPerThreadValue&lt;int const&gt;" status="run" time="0" classname="ThreadValueTest/3" />
   </testsuite>
-  <testsuite name="ThreadManager" tests="1" failures="0" disabled="0" errors="0" time="0.002">
+  <testsuite name="ThreadManager" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="All" status="run" time="0" classname="ThreadManager" />
   </testsuite>
 </testsuites>
