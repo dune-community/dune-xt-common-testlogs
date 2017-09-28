@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="12" failures="0" disabled="0" errors="0" timestamp="2017-09-28T15:17:58" time="0" name="AllTests">
-  <testsuite name="ClampTest/0" tests="1" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="All" type_param="double" status="run" time="0" classname="ClampTest/0" />
+<testsuites tests="12" failures="0" disabled="0" errors="0" timestamp="2017-09-28T15:27:36" time="0.036" name="AllTests">
+  <testsuite name="ClampTest/0" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="All" type_param="double" status="run" time="0.001" classname="ClampTest/0" />
   </testsuite>
-  <testsuite name="ClampTest/1" tests="1" failures="0" disabled="0" errors="0" time="0">
+  <testsuite name="ClampTest/1" tests="1" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="All" type_param="int" status="run" time="0" classname="ClampTest/1" />
   </testsuite>
-  <testsuite name="ClampTest/2" tests="1" failures="0" disabled="0" errors="0" time="0">
+  <testsuite name="ClampTest/2" tests="1" failures="0" disabled="0" errors="0" time="0.002">
     <testcase name="All" type_param="Dune::FieldVector&lt;double, 3&gt;" status="run" time="0" classname="ClampTest/2" />
   </testsuite>
-  <testsuite name="ClampTest/3" tests="1" failures="0" disabled="0" errors="0" time="0">
+  <testsuite name="ClampTest/3" tests="1" failures="0" disabled="0" errors="0" time="0.002">
     <testcase name="All" type_param="std::vector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="ClampTest/3" />
   </testsuite>
-  <testsuite name="EpsilonTest/0" tests="1" failures="0" disabled="0" errors="0" time="0">
+  <testsuite name="EpsilonTest/0" tests="1" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="All" type_param="double" status="run" time="0" classname="EpsilonTest/0" />
   </testsuite>
-  <testsuite name="EpsilonTest/1" tests="1" failures="0" disabled="0" errors="0" time="0">
+  <testsuite name="EpsilonTest/1" tests="1" failures="0" disabled="0" errors="0" time="0.002">
     <testcase name="All" type_param="int" status="run" time="0" classname="EpsilonTest/1" />
   </testsuite>
-  <testsuite name="MinMaxAvgTest/0" tests="1" failures="0" disabled="0" errors="0" time="0">
+  <testsuite name="MinMaxAvgTest/0" tests="1" failures="0" disabled="0" errors="0" time="0.002">
     <testcase name="All" type_param="double" status="run" time="0" classname="MinMaxAvgTest/0" />
   </testsuite>
-  <testsuite name="MinMaxAvgTest/1" tests="1" failures="0" disabled="0" errors="0" time="0">
+  <testsuite name="MinMaxAvgTest/1" tests="1" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="All" type_param="int" status="run" time="0" classname="MinMaxAvgTest/1" />
   </testsuite>
-  <testsuite name="OtherMath" tests="4" failures="0" disabled="0" errors="0" time="0">
+  <testsuite name="OtherMath" tests="4" failures="0" disabled="0" errors="0" time="0.003">
     <testcase name="Range" status="run" time="0" classname="OtherMath" />
     <testcase name="Sign" status="run" time="0" classname="OtherMath" />
     <testcase name="AbsoluteValue" status="run" time="0" classname="OtherMath" />
-    <testcase name="FloatCmp" status="run" time="0" classname="OtherMath" />
+    <testcase name="FloatCmp" status="run" time="0.001" classname="OtherMath" />
   </testsuite>
 </testsuites>
