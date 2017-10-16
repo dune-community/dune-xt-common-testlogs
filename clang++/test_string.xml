@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="20" failures="0" disabled="0" errors="0" timestamp="2017-10-12T14:06:36" time="0.004" name="AllTests">
-  <testsuite name="MatrixStringTestDouble/0" tests="1" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="CheckDouble" type_param="Dune::DynamicMatrix&lt;double&gt;" status="run" time="0" classname="MatrixStringTestDouble/0" />
+<testsuites tests="20" failures="0" disabled="0" errors="0" timestamp="2017-10-16T14:17:11" time="0.005" name="AllTests">
+  <testsuite name="MatrixStringTestDouble/0" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="CheckDouble" type_param="Dune::DynamicMatrix&lt;double&gt;" status="run" time="0.001" classname="MatrixStringTestDouble/0" />
   </testsuite>
   <testsuite name="MatrixStringTestDouble/1" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="CheckDouble" type_param="Dune::XT::Common::FieldMatrix&lt;double, 2, 2&gt;" status="run" time="0" classname="MatrixStringTestDouble/1" />
@@ -27,8 +27,8 @@
   <testsuite name="VectorStringTestDouble/2" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="CheckDouble" type_param="Dune::FieldVector&lt;double, 3&gt;" status="run" time="0" classname="VectorStringTestDouble/2" />
   </testsuite>
-  <testsuite name="VectorStringTestDouble/3" tests="1" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="CheckDouble" type_param="Dune::XT::Common::FieldVector&lt;double, 3&gt;" status="run" time="0" classname="VectorStringTestDouble/3" />
+  <testsuite name="VectorStringTestDouble/3" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="CheckDouble" type_param="Dune::XT::Common::FieldVector&lt;double, 3&gt;" status="run" time="0.001" classname="VectorStringTestDouble/3" />
   </testsuite>
   <testsuite name="VectorStringTestInt/0" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="CheckInt" type_param="std::vector&lt;int, std::allocator&lt;int&gt; &gt;" status="run" time="0" classname="VectorStringTestInt/0" />

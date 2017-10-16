@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="4" failures="0" disabled="0" errors="0" timestamp="2017-10-12T14:06:37" time="2.031" name="AllTests">
-  <testsuite name="TimedPrefixedLogStream" tests="1" failures="0" disabled="0" errors="0" time="2.013">
-    <testcase name="all" status="run" time="2.013" classname="TimedPrefixedLogStream" />
+<testsuites tests="4" failures="0" disabled="0" errors="0" timestamp="2017-10-16T14:17:12" time="2.012" name="AllTests">
+  <testsuite name="TimedPrefixedLogStream" tests="1" failures="0" disabled="0" errors="0" time="2.011">
+    <testcase name="all" status="run" time="2.011" classname="TimedPrefixedLogStream" />
   </testsuite>
-  <testsuite name="TimedLogger" tests="3" failures="0" disabled="0" errors="0" time="0.011">
-    <testcase name="before_create" status="run" time="0.001" classname="TimedLogger" />
-    <testcase name="after_create" status="run" time="0.004" classname="TimedLogger" />
-    <testcase name="fool_level_tracking" status="run" time="0.004" classname="TimedLogger" />
+  <testsuite name="TimedLogger" tests="3" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="before_create" status="run" time="0" classname="TimedLogger" />
+    <testcase name="after_create" status="run" time="0.001" classname="TimedLogger" />
+    <testcase name="fool_level_tracking" status="run" time="0" classname="TimedLogger" />
   </testsuite>
 </testsuites>
