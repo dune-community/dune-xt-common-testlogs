@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="2" failures="0" disabled="0" errors="0" timestamp="2017-11-09T12:28:01" time="0.006" name="AllTests">
-  <testsuite name="TypeTransform" tests="1" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="All" status="run" time="0" classname="TypeTransform" />
+<testsuites tests="2" failures="0" disabled="0" errors="0" timestamp="2017-11-09T12:29:43" time="0.001" name="AllTests">
+  <testsuite name="TypeTransform" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="All" status="run" time="0.001" classname="TypeTransform" />
   </testsuite>
-  <testsuite name="Product" tests="1" failures="0" disabled="0" errors="0" time="0.003">
-    <testcase name="All" status="run" time="0.002" classname="Product" />
+  <testsuite name="Product" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="All" status="run" time="0" classname="Product" />
   </testsuite>
 </testsuites>
