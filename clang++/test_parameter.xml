@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="4" failures="0" disabled="0" errors="0" timestamp="2017-11-16T16:52:19" time="0.01" name="AllTests">
-  <testsuite name="ParameterType" tests="3" failures="0" disabled="0" errors="0" time="0.004">
-    <testcase name="creation_and_report_and_ostreamout" status="run" time="0" classname="ParameterType" />
+<testsuites tests="4" failures="0" disabled="0" errors="0" timestamp="2017-11-17T13:01:16" time="0.001" name="AllTests">
+  <testsuite name="ParameterType" tests="3" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="creation_and_report_and_ostreamout" status="run" time="0.001" classname="ParameterType" />
     <testcase name="equality_comparison" status="run" time="0" classname="ParameterType" />
     <testcase name="inequality_comparison" status="run" time="0" classname="ParameterType" />
   </testsuite>
-  <testsuite name="Parameter" tests="1" failures="0" disabled="0" errors="0" time="0.002">
+  <testsuite name="Parameter" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="creation_and_report_and_ostreamout" status="run" time="0" classname="Parameter" />
   </testsuite>
 </testsuites>
