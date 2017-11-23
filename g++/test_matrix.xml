@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="99" failures="0" disabled="0" errors="0" timestamp="2017-11-23T19:46:47" time="0.004" name="AllTests">
-  <testsuite name="SerializeRowwiseTest/0" tests="11" failures="0" disabled="0" errors="0" time="0.001">
-    <testcase name="default" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 1, 1&gt;, Int&lt;1&gt;, Int&lt;1&gt; &gt;" status="run" time="0.001" classname="SerializeRowwiseTest/0" />
+<testsuites tests="99" failures="0" disabled="0" errors="0" timestamp="2017-11-23T19:48:05" time="0.014" name="AllTests">
+  <testsuite name="SerializeRowwiseTest/0" tests="11" failures="0" disabled="0" errors="0" time="0.012">
+    <testcase name="default" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 1, 1&gt;, Int&lt;1&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/0" />
     <testcase name="int" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 1, 1&gt;, Int&lt;1&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/0" />
     <testcase name="long_int" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 1, 1&gt;, Int&lt;1&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/0" />
     <testcase name="long_long_int" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 1, 1&gt;, Int&lt;1&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/0" />
@@ -13,7 +13,7 @@
     <testcase name="float" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 1, 1&gt;, Int&lt;1&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/0" />
     <testcase name="double" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 1, 1&gt;, Int&lt;1&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/0" />
   </testsuite>
-  <testsuite name="SerializeRowwiseTest/1" tests="11" failures="0" disabled="0" errors="0" time="0.001">
+  <testsuite name="SerializeRowwiseTest/1" tests="11" failures="0" disabled="0" errors="0" time="0">
     <testcase name="default" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 2, 3&gt;, Int&lt;2&gt;, Int&lt;3&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/1" />
     <testcase name="int" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 2, 3&gt;, Int&lt;2&gt;, Int&lt;3&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/1" />
     <testcase name="long_int" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 2, 3&gt;, Int&lt;2&gt;, Int&lt;3&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/1" />
@@ -26,14 +26,14 @@
     <testcase name="float" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 2, 3&gt;, Int&lt;2&gt;, Int&lt;3&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/1" />
     <testcase name="double" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 2, 3&gt;, Int&lt;2&gt;, Int&lt;3&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/1" />
   </testsuite>
-  <testsuite name="SerializeRowwiseTest/2" tests="11" failures="0" disabled="0" errors="0" time="0.001">
+  <testsuite name="SerializeRowwiseTest/2" tests="11" failures="0" disabled="0" errors="0" time="0">
     <testcase name="default" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 3, 1&gt;, Int&lt;3&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/2" />
     <testcase name="int" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 3, 1&gt;, Int&lt;3&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/2" />
     <testcase name="long_int" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 3, 1&gt;, Int&lt;3&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/2" />
     <testcase name="long_long_int" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 3, 1&gt;, Int&lt;3&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/2" />
     <testcase name="ssize_t" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 3, 1&gt;, Int&lt;3&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/2" />
     <testcase name="unsigned_int" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 3, 1&gt;, Int&lt;3&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/2" />
-    <testcase name="unsigned_long_int" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 3, 1&gt;, Int&lt;3&gt;, Int&lt;1&gt; &gt;" status="run" time="0.001" classname="SerializeRowwiseTest/2" />
+    <testcase name="unsigned_long_int" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 3, 1&gt;, Int&lt;3&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/2" />
     <testcase name="unsigned_long_long_int" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 3, 1&gt;, Int&lt;3&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/2" />
     <testcase name="size_t" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 3, 1&gt;, Int&lt;3&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/2" />
     <testcase name="float" type_param="std::tuple&lt;Dune::FieldMatrix&lt;int, 3, 1&gt;, Int&lt;3&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/2" />
@@ -52,7 +52,7 @@
     <testcase name="float" type_param="std::tuple&lt;Dune::XT::Common::FieldMatrix&lt;int, 1, 1&gt;, Int&lt;1&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/3" />
     <testcase name="double" type_param="std::tuple&lt;Dune::XT::Common::FieldMatrix&lt;int, 1, 1&gt;, Int&lt;1&gt;, Int&lt;1&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/3" />
   </testsuite>
-  <testsuite name="SerializeRowwiseTest/4" tests="11" failures="0" disabled="0" errors="0" time="0">
+  <testsuite name="SerializeRowwiseTest/4" tests="11" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="default" type_param="std::tuple&lt;Dune::XT::Common::FieldMatrix&lt;int, 2, 3&gt;, Int&lt;2&gt;, Int&lt;3&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/4" />
     <testcase name="int" type_param="std::tuple&lt;Dune::XT::Common::FieldMatrix&lt;int, 2, 3&gt;, Int&lt;2&gt;, Int&lt;3&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/4" />
     <testcase name="long_int" type_param="std::tuple&lt;Dune::XT::Common::FieldMatrix&lt;int, 2, 3&gt;, Int&lt;2&gt;, Int&lt;3&gt; &gt;" status="run" time="0" classname="SerializeRowwiseTest/4" />
