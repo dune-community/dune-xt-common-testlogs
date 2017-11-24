@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="3" failures="0" disabled="0" errors="0" timestamp="2017-11-20T15:20:35" time="0" name="AllTests">
-  <testsuite name="hstack" tests="3" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="dune_field_vector" status="run" time="0" classname="hstack" />
+<testsuites tests="3" failures="0" disabled="0" errors="0" timestamp="2017-11-24T08:46:28" time="0.01" name="AllTests">
+  <testsuite name="hstack" tests="3" failures="0" disabled="0" errors="0" time="0.005">
+    <testcase name="dune_field_vector" status="run" time="0.001" classname="hstack" />
     <testcase name="dune_xt_common_field_vector" status="run" time="0" classname="hstack" />
     <testcase name="both_field_vectors" status="run" time="0" classname="hstack" />
   </testsuite>
