@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="4" failures="0" disabled="0" errors="0" timestamp="2017-12-01T14:47:11" time="0.001" name="AllTests">
-  <testsuite name="ParameterType" tests="3" failures="0" disabled="0" errors="0" time="0.001">
-    <testcase name="creation_and_report_and_ostreamout" status="run" time="0.001" classname="ParameterType" />
+<testsuites tests="4" failures="0" disabled="0" errors="0" timestamp="2017-12-01T15:14:05" time="0.001" name="AllTests">
+  <testsuite name="ParameterType" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="creation_and_report_and_ostreamout" status="run" time="0" classname="ParameterType" />
     <testcase name="equality_comparison" status="run" time="0" classname="ParameterType" />
     <testcase name="inequality_comparison" status="run" time="0" classname="ParameterType" />
   </testsuite>
