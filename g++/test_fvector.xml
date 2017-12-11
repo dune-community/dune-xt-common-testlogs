@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="3" failures="0" disabled="0" errors="0" timestamp="2017-12-11T15:04:05" time="0" name="AllTests">
-  <testsuite name="hstack" tests="3" failures="0" disabled="0" errors="0" time="0">
+<testsuites tests="3" failures="0" disabled="0" errors="0" timestamp="2017-12-11T15:04:32" time="0.002" name="AllTests">
+  <testsuite name="hstack" tests="3" failures="0" disabled="0" errors="0" time="0.002">
     <testcase name="dune_field_vector" status="run" time="0" classname="hstack" />
     <testcase name="dune_xt_common_field_vector" status="run" time="0" classname="hstack" />
     <testcase name="both_field_vectors" status="run" time="0" classname="hstack" />
